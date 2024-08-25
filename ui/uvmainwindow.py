@@ -13,7 +13,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(900, 727)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Preferred)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
@@ -182,7 +182,7 @@ class Ui_MainWindow(object):
         self.listLog.setAutoFillBackground(False)
         self.listLog.setObjectName("listLog")
         self.layoutWidget1 = QtWidgets.QWidget(parent=self.centralwidget)
-        self.layoutWidget1.setGeometry(QtCore.QRect(20, 210, 193, 26))
+        self.layoutWidget1.setGeometry(QtCore.QRect(20, 210, 200, 26))
         self.layoutWidget1.setObjectName("layoutWidget1")
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.layoutWidget1)
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
