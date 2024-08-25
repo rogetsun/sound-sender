@@ -13,7 +13,7 @@ import logging.config
 import os
 
 # 录音
-from ui.Ui_record_dialog import Ui_Dialog
+from ui.record_dialog import Ui_Dialog
 import sounddevice as sd
 import numpy as np
 import scipy.io.wavfile as wav
