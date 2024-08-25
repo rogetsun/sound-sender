@@ -5,7 +5,7 @@ from PyQt6.QtGui import QIcon
 from PyQt6.QtGui import QCursor
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QObject
 import serial.tools.list_ports_windows
-from ui.Ui_uvmainwindow import Ui_MainWindow
+from ui.uvmainwindow import Ui_MainWindow
 import serial
 import serial.tools.list_ports
 import logging
