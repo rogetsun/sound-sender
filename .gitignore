@@ -1,0 +1,13 @@
+output/
+dist/
+build/
+.vscode/
+__pycache__/
+*.log
+*.pyc
+*.pyo
+*.db
+*.sqlite
+.git/
+.idea/
+*.exe
